@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Garden Oasis Malang – Kebun PETICK</title>
+  <meta name="description" content="Investasi kebun produktif di Malang. Paket kavling, manajemen kebun, panen berkala, dan pengelolaan profesional." />
+
+  <!-- ===== STYLE UTAMA ===== -->
+  <style>
+    :root{
+      --green:#2f8f4a;
+      --green-soft:#e8f5e9;
+      --accent:#ff8b00;
+      --muted:#6b7280;
+      --bg:#f7faf7;
+      --card:#ffffff;
+      --radius:14px;
+      --maxw:1180px;
+      font-family: "Inter", Arial, sans-serif;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:#0f172a;line-height:1.6}
+    a{text-decoration:none;color:inherit}
+
+    /* HEADER */
+    header{
+      background:#ffffff;
+      box-shadow:0 2px 8px rgba(0,0,0,0.05);
+      position:sticky;top:0;z-index:30;
+    }
+    header .wrap{
+      max-width:var(--maxw);margin:auto;
+      padding:14px 24px;display:flex;align-items:center;
+    }
+    .logo{
+      width:52px;height:52px;border-radius:12px;
+      display:flex;align-items:center;justify-content:center;
+      background:linear-gradient(135deg,var(--green),#79d49b);
+      color:white;font-weight:700;font-size:18px;
+    }
+    nav{margin-left:auto}
+    nav a{padding:10px 12px;color:var(--muted);font-weight:500}
+    nav a.btn{
+      background:var(--accent);color:#fff;border-radius:10px;
+      padding:10px 18px;font-weight:600;
+    }
+
+    /* HERO */
+    .hero{
+      max-width:var(--maxw);margin:auto;padding:64px 24px 32px;
+      display:grid;grid-template-columns:1fr 420px;gap:40px;
+      align-items:center;
+    }
+    .hero h1{
+      font-size:42px;line-height:1.1;margin:0 0 14px;
+      color:#06301a;font-weight:800;
+    }
+    .hero p{color:var(--muted);margin:0 0 22px}
+
+    .cta a.btn1{
+      background:var(--accent);color:white;padding:14px 22px;
+      border-radius:12px;font-weight:700;margin-right:14px;
+      display:inline-block;
+    }
+    .cta a.btn2{
+      background:white;border-radius:12px;padding:14px 22px;
+      box-shadow:0 4px 12px rgba(0,0,0,0.08);
+      display:inline-block;color:var(--green);font-weight:600;
+    }
+
+    /* FEATURES */
+    .features{
+      margin-top:32px;display:grid;grid-template-columns:repeat(3,1fr);
+      gap:18px;
+    }
+    .feat{
+      background:white;padding:18px;border-radius:var(--radius);
+      box-shadow:0 4px 18px rgba(0,0,0,0.06);
+    }
+    .feat h3{margin:0;font-size:17px;font-weight:700}
+    .feat p{margin:4px 0 0;color:var(--muted)}
+
+    /* FORM */
+    .card{
+      background:white;padding:20px;border-radius:var(--radius);
+      box-shadow:0 6px 20px rgba(0,0,0,0.07);
+    }
+    form input, form select, form textarea{
+      width:100%;padding:12px;margin-bottom:10px;
+      border-radius:10px;border:1px solid #dce3dc;font-size:15px;
+    }
+    form button{
+      width:100%;padding:14px;border:0;border-radius:12px;
+      background:var(--green);color:white;font-weight:700;
+      font-size:16px;cursor:pointer;
+    }
+
+    /* GALERI */
+    .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+    .gallery img{
+      width:100%;height:220px;object-fit:cover;border-radius:14px;
+    }
+
+    /* ABOUT */
+    .about{
+      max-width:var(--maxw);margin:auto;padding:38px 24px;
+      display:flex;gap:28px;align-items:center;
+    }
+    .about img{
+      width:380px;height:260px;object-fit:cover;border-radius:14px;
+      box-shadow:0 10px 32px rgba(0,0,0,0.12);
+    }
+
+    footer{
+      background:#fff;margin-top:40px;padding:24px;
+      text-align:center;color:var(--muted);
+      border-top:1px solid #eee;
+    }
+
+    /* RESPONSIVE */
+    @media(max-width:980px){
+      .hero{grid-template-columns:1fr}
+      .about{flex-direction:column}
+      .gallery{grid-template-columns:repeat(2,1fr)}
+    }
+    @media(max-width:540px){
+      nav{display:none}
+      .gallery{grid-template-columns:1fr}
+      .hero h1{font-size:32px}
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- ============= HEADER ============= -->
+<header>
+  <div class="wrap">
+    <div class="logo">GO</div>
+    <nav>
+      <a href="#paket">Paket</a>
+      <a href="#galeri">Galeri</a>
+      <a href="#kontak" class="btn">Hubungi</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ============= HERO ============= -->
+<section class="hero">
+  <div>
+    <h1>Investasi Kebun Produktif di Malang – Grow Your Future</h1>
+    <p>Kebun PETICK Malang menawarkan solusi investasi tanah kebun produktif, legalitas aman, panen berkelanjutan, dan pengelolaan profesional.</p>
+
+    <div class="cta">
+      <a href="#paket" class="btn1">Lihat Paket Kavling</a>
+      <a href="#galeri" class="btn2">Lihat Galeri</a>
+    </div>
+
+    <div class="features">
+      <div class="feat"><h3>Lokasi Premium</h3><p>Tanah subur area Malang Timur.</p></div>
+      <div class="feat"><h3>Panen Berkelanjutan</h3><p>Pengelolaan oleh tim profesional.</p></div>
+      <div class="feat"><h3>Legalitas Aman</h3><p>Dokumen jelas & transparan.</p></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Dapatkan Brosur & Jadwalkan Kunjungan</h3>
+    <form onsubmit="event.preventDefault(); document.getElementById('thanks').style.display='block'; this.style.display='none';">
+      <input placeholder="Nama lengkap" required>
+      <input placeholder="Nomor WhatsApp" required>
+      <input placeholder="Email (opsional)">
+      <select>
+        <option>Jadwalkan Kunjungan</option>
+        <option>Minta Brosur</option>
+        <option>Info Investasi</option>
+      </select>
+      <button>Kirim</button>
+    </form>
+    <div id="thanks" style="display:none;color:var(--green);font-weight:700;margin-top:10px">Terima kasih, kami segera menghubungi Anda.</div>
+  </div>
+</section>
+
+<!-- ============= PAKET ============= -->
+<section id="paket" style="max-width:var(--maxw);margin:auto;padding:32px 24px">
+  <h2>Paket Kavling</h2>
+
+  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:18px">
+    <div class="card">
+      <h3>Paket A – 100 m²</h3>
+      <p>Mulai <b>Rp 85.000.000</b></p>
+      <p style="color:var(--muted)">Termasuk bibit & perawatan 1 tahun.</p>
+    </div>
+    <div class="card">
+      <h3>Paket B – 200 m²</h3>
+      <p>Mulai <b>Rp 160.000.000</b></p>
+      <p style="color:var(--muted)">Pilihan komoditas sesuai preferensi Anda.</p>
+    </div>
+    <div class="card">
+      <h3>Paket C – 500 m²</h3>
+      <p>Mulai <b>Rp 375.000.000</b></p>
+      <p style="color:var(--muted)">Cocok untuk investor medium scale.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============= GALERI ============= -->
+<section id="galeri" style="max-width:var(--maxw);margin:auto;padding:32px 24px">
+  <h2>Galeri Kebun</h2>
+
+  <div class="gallery" style="margin-top:16px">
+    <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=800&q=60">
+    <img src="https://images.unsplash.com/photo-1524594154908-edd338c046e2?auto=format&fit=crop&w=800&q=60">
+    <img src="https://images.unsplash.com/photo-1582515073490-dc99d0f29906?auto=format&fit=crop&w=800&q=60">
+    <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=800&q=60">
+    <img src="https://images.unsplash.com/photo-1524594154908-edd338c046e2?auto=format&fit=crop&w=800&q=60">
+    <img src="https://images.unsplash.com/photo-1582515073490-dc99d0f29906?auto=format&fit=crop&w=800&q=60">
+  </div>
+</section>
+
+<!-- ============= ABOUT ============= -->
+<section class="about">
+  <div>
+    <h2>Tentang Garden Oasis Malang</h2>
+    <p>Kebun PETICK adalah proyek investasi kebun produktif di kawasan Malang Timur. Kami mengelola lahan produktif, menanam komoditas unggulan, dan memberikan laporan panen berkala.</p>
+    <p style="color:var(--muted)">
+      ✔ Pengelolaan profesional  
+      ✔ Tanah subur bersertifikat  
+      ✔ Laporan bulanan + foto perkembangan  
+    </p>
+  </div>
+
+  <img src="https://images.unsplash.com/photo-1582515073490-dc99d0f29906?auto=format&fit=crop&w=800&q=60">
+</section>
+
+<!-- ============= KONTAK ============= -->
+<section id="kontak" style="max-width:var(--maxw);margin:auto;padding:32px 24px">
+  <h2>Hubungi Kami</h2>
+
+  <div class="card" style="margin-top:16px">
+    <p><b>Alamat:</b><br> Madyopuro, Kedungkandang, Malang – 65139</p>
+    <p><b>WhatsApp:</b> <a href="https://wa.me/628xxxxxxxxxx">+62 8xx xxxx xxxx</a></p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  © <span id="y"></span> Garden Oasis Malang • Kebun PETICK.
+</footer>
+
+<script>
+  document.getElementById("y").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
